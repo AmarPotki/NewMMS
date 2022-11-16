@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Contract">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="CurrentState" Type="NewMMS.Contract.Domain.ContractAggregate.State.ContractState" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="2.594" />
+        <Point X="10.115" Y="2.594" />
+        <Point X="10.115" Y="2.062" />
+        <Point X="17.844" Y="2.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAAADAAAAACAQCAARACAgEAEgAAAAIAAQAA=</HashCode>
+      <FileName>ContractAggregate\Contract.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AccountInfo" />
+      <Property Name="Brokers" />
+      <Property Name="Merchant" />
+      <Property Name="MasoulForoushGah" />
+      <Property Name="Terminal" />
+      <Property Name="Shop" />
+      <Property Name="CurrentState" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Devices" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Brokers" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\Brokers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.AccountInfo" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAACAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\AccountInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Device">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.MasoulForoushGah" Collapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAIAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\MasoulForoushGah.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Merchant" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAAQAAAAAAAAEABAAAAAAAAAAg=</HashCode>
+      <FileName>ContractAggregate\Merchant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Shop" Collapsed="true">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAIAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>ContractAggregate\Shop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.Terminal2" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\Terminal2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.ContractState" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgBAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAIEACAA=</HashCode>
+      <FileName>ContractAggregate\State\ContractState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.DraftState" Collapsed="true">
+    <Position X="13.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ContractAggregate\State\DraftState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.JamaavaryState" Collapsed="true">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\State\JamaavaryState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.NeedToCompleteContractPropertiesState" Collapsed="true">
+    <Position X="17.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\State\NeedToCompleteContractPropertiesState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.WaitingForBranchAcceptState" Collapsed="true">
+    <Position X="19.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\State\WaitingForBranchAcceptState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewMMS.Contract.Domain.ContractAggregate.State.WaitingForDefiningInSwitchState" Collapsed="true">
+    <Position X="22" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractAggregate\State\WaitingForDefiningInSwitchState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
